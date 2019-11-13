@@ -1,0 +1,43 @@
+
+body {
+  margin: auto !important;
+}
+.Education {
+border-top: 1ch solid;  
+border-bottom: 0.8ch solid;
+border-color: gray;}
+#slide_1 {
+  background-color: indigo;
+}
+#slide_2 {
+  background-color: khaki;
+}
+#slide_3 {
+  background-color: rgb(53, 175, 23);
+}
+.slide {
+  display: none;
+}
+.show {
+  display: inline;
+}
+ 
+#prev , 
+#next {
+  background-color: hotpink;
+}
+#droplist {
+  padding: 0;
+  overflow: hidden;
+  transition: height 1s linear;
+  height: 0;
+}
+.active {
+  transition: height 1s linear;
+  height: 100px !important;
+ }
+
+ #prev , 
+ #next {
+   float: left;
+ }
