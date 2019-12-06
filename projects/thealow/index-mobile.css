@@ -46,6 +46,8 @@
     }
 
     .header_content_logo_rotate {
+        margin-left: 13px;
+        margin-top: 12px;
         width: 37px;
         height: 37px;
         background-size: cover;
@@ -107,11 +109,10 @@
         height: 318px;
     }
 
-    #iframe {
+    #video {
         margin: 0 0;
         width: 640px;
         height: 327px;
-        background: url('./assets/mobile/iframe_video.png') no-repeat;
         overflow: visible;
     }
 
@@ -161,15 +162,17 @@
         margin-bottom: 0;
     }
 
-    .menu_content_better_disign img {
-        content: url('./assets/mobile/better_design.png');
+    .menu_content_better_disign svg {
+        width: 90px;
+        height: 62px;
         margin-left: 29px;
         margin-top: 33px;
     }
 
-    .menu_content_better_castomize img{
-        content: url('./assets/mobile/customize.png');
-        margin-left: 67px;
+    .menu_content_better_castomize svg{
+        width: 68px;
+        height: 70px;
+        margin-left: 65px;
         margin-top: 29px;
     }
 
@@ -186,10 +189,11 @@
         margin: 0;
     }
 
-    .menu_content_its_free img {
-        content: url('./assets/mobile/ItsFree.png');
+    .menu_content_its_free svg {
+        width: 69px;
+        height: 70px;
         margin-top: 29px;
-        margin-left: 62px;
+        margin-left: 54px;
     }
 
     .menu_content_its_free h4 {
@@ -285,8 +289,11 @@
         color: black;
         height: 50px;
     }
+    
 
     .twitter_mobile_right_side_grid_grid_twittes_element_label {
+        position: relative;
+        width: 235px;
         height: 42px;
         background: white;
         margin-left: 12px;
@@ -295,8 +302,13 @@
         color: black;
         border-radius: 12px;
     }
-
+    .twitter_mobile_right_side_grid_grid_twittes_element_label img {
+        position: absolute;
+        top: 0;
+        left: -9px;
+    }
     .twitter_mobile_right_side_grid_grid_twittes_element_label p {
+        position: absolute;
         height: 50px;
         font-size: 0.8rem;
         line-height: 17px;
@@ -331,6 +343,14 @@
     }
 
     .twitter_mobile_right_side_grid_grid_twittes_add_twitt_add_twitt {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+        border: 0;
+    }
+    .twitter_mobile_right_side_grid_grid_twittes_add_twitt_add_twitt input {
+        width: 100%;
+        height: 90%;
         border-radius: 10px 0 0 10px;
         border: 0;
         -webkit-box-shadow:inset 2px 2px 2px 2px #b0b0b0;

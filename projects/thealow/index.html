@@ -13,9 +13,9 @@
         <header class='header'>
             <div class="header_content">
                 <div class="header_content_upper_part">
-                    <div class="header_content_logo">
-                        <div class="header_content_logo_rotate"></div>
-                    </div>
+                    <img class="header_content_logo" src="./assets/desktop/header/header_logo.png">
+                        <img class="header_content_logo_rotate" src="./assets/desktop/header/header_logo_rotate.png"></img>
+                    </img>
                     <h1 header_content_h1>THEYALOW</h1>
                     <div class="header_content_grid">
                         <nav class="header_content_nav">
@@ -38,16 +38,16 @@
         </header>
         <main class="main">
             <section class="video_part">
-                <iframe id='iframe' src="" frameborder="0" class="video_part_video" 
-                scrolling="no" outline='none'></iframe>
-                <h3>THE COOL</br><span>THE MINIMAL</span></h3>
+                <video src="" class="video_part_video" height="327" width="549"
+                poster="./assets/mobile/iframe_video.png" id="video"></video>
+                <h3>THE COOL<span>THE MINIMAL</span></h3>
                 <div class="video_part_sliders desktop_grid">
-                    <div class="left_slider">
+                    <button class="left_slider">
                         <div class='left_slider_in'></div>
-                    </div>
-                    <div class="right_slider">
+                    </button>
+                    <button class="right_slider">
                         <div class='right_slider_in'></div>
-                    </div>
+                    </button>
                 </div>
  
             </section>
@@ -58,19 +58,19 @@
                 <div class="menu_content">
                     <div class="menu_content_label">
                         <div class="menu_content_better_disign">
-                            <img src="./assets/desktop/main/menu/better_design.png" alt="better_design">
+                            <svg width="110" height="75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0.161 110 74.679"><svg xmlns="http://www.w3.org/2000/svg" width="110" height="75" viewBox="2 2 109 74" fill="#f5c506"><path fill="#F5C506" paint-order="stroke fill markers" fill-rule="evenodd" d="M83.75 76H25.844C12.675 76 2 65.458 2 52.454c0-10.68 7.247-19.596 17.117-22.478-.018-.36-.086-.701-.086-1.067 0-9.289 7.625-16.818 17.031-16.818 1.884 0 3.664.374 5.357.931C46.38 6.37 54.304 2 63.312 2c12.954 0 23.746 8.945 26.515 20.908C101.941 25.643 111 36.3 111 49.09 111 63.952 98.8 76 83.75 76zM63.312 49.09V28.91H49.687v20.182H39.256L56.5 66.119l17.244-17.028H63.312z"></path></svg></svg>
                             <h4>BETTER DESIGN</h4>
                         </div>
                     </div>
                     <div class="menu_content_label">
                         <div class="menu_content_better_castomize">
-                            <img src="./assets/desktop/main/menu/customize.png" alt="customize">
+                            <svg width="92" height="96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0.068 92 95.864"><svg xmlns="http://www.w3.org/2000/svg" width="92" height="96" viewBox="7.83 2 91.171 95" fill="#f5c506"><path fill="#F5C506" paint-order="stroke fill markers" fill-rule="evenodd" d="M82.64 57.57c-4.692 30.106-35.933 32.193-53.404 30.94-1.155 5.178-1.605 8.49-1.605 8.49h-8.588s11.066-41.97 36.85-64.27c4.792-4.301 10.125-8.021 16.114-10.709-27.813 10.199-47.22 44.796-55.858 63.2-3.921-5.864-15.136-26.095-2.423-50.533C27.059 9.058 99 2 99 2S88.312 21.183 82.64 57.57z"/></svg></svg>
                             <h4>CUSTOMIZE</h4>
                         </div>
                     </div>
                     <div class="menu_content_label">
                         <div class="menu_content_its_free">
-                            <img src="./assets/desktop/main/menu/its_free.png" alt="its_free">
+                            <svg width="82" height="84" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0.012 0 81.976 84"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="84" viewBox="2 2 81 83" fill="#f5c506"><path fill="#F5C506" paint-order="stroke fill markers" fill-rule="evenodd" d="M61.231 52.806v24.145L50.693 63.277 28.831 85 2 2l81 29.176-21.769 21.63zM9.594 9.881l46.068 48.458 5.4-5.365L9.594 9.88z"/></svg></svg>
                             <h4>ITS FREE</h4>
                         </div>
                     </div>
@@ -82,15 +82,17 @@
                     <div class="content_slider_grid_lorem">
                         <p class='content_slider_grid_lorem_desktop'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci-<br>didunt ut</p>
                         <p class='content_slider_grid_lorem_mobile'>Lorem ipsum dolor sit amet, consecte-<br>tur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
-                        <div class="content_slider_grid_plus plus_icon" ></div>
+                        <a class="content_slider_grid_plus plus_icon" ></a>
                     </div>
                     <div class="content_slider_grid_mult">
+                        <video controls poster="./assets/desktop/main/content_slider/jorge.png"></video>
                         <div class="content_slider_grid_mult_play"></div>
                         <div class="content_slider_grid_mult_play_one"></div>   
                     </div>
                     <div class="content_slider_grid_twitter">
-                        <div class="content_slider_grid_twitter_logo"></div>
-                        <div class="content_slider_grid_twitter_plus plus_icon"></div>
+                        <img src="./assets/desktop/main/content_slider/twitter.svg" class="content_slider_grid_twitter_logo" alt="">
+                        
+                        <a class="content_slider_grid_twitter_plus plus_icon"></a>
                     </div>   
                 </div>
                 <div class="twitter_content_mobile mobile_grid">
@@ -101,21 +103,23 @@
                         <div class="twitter_mobile_right_side_grid">
                             <div class="twitter_mobile_right_side_grid_grid_twittes">
                                     <div class="twitter_mobile_right_side_grid_grid_twittes_element_label">
+                                        <img src=".\assets\mobile\twitter.svg" alt=""></img>
                                         <p>Daily Mobile UI Design Inspiration #1 via @cssauthor</p>
-                                        <div class="twitter_mobile_right_side_grid_grid_twittes_element_triangle"></div>
                                     </div>
                                     <div class="twitter_mobile_right_side_grid_grid_twittes_element_label" id='second_label'>
+                                        <img src=".\assets\mobile\twitter.svg" alt=""></img>
                                         <p>Daily Mobile UI Design Inspiration #1 via @cssauthor</p>
-                                        <div class="twitter_mobile_right_side_grid_grid_twittes_element_triangle"></div>
                                     </div>
                                         <div class="twitter_mobile_right_side_grid_grid_twittes_element_label" id='third_label'>
+                                        <img src=".\assets\mobile\twitter.svg" alt=""></img>
                                         <p>Daily Mobile UI Design Inspiration #1 via @cssauthor</p>
-                                        <div class="twitter_mobile_right_side_grid_grid_twittes_element_triangle"></div>
                                     </div>
                             </div>
                             <div class="twitter_mobile_right_side_grid_grid_twittes_add_twitt">
-                                <input type="text" class="twitter_mobile_right_side_grid_grid_twittes_add_twitt_add_twitt">
-                                <button>Tweet</button>
+                                <form action="" class="twitter_mobile_right_side_grid_grid_twittes_add_twitt_add_twitt">
+                                    <input type="text" class="twitter_mobile_right_side_grid_grid_twittes_add_twitt_add_twitt">
+                                </form>
+                                <button type="submit">Tweet</button>
                             </div>
                         </div>
                     </div>
@@ -124,20 +128,17 @@
                     <p>25</p>
                     <span>APRIL</span>
                 </div>
-                <div class="content_slider_scroll desktop_block">
-                    <div class="content_slider_scroll1">
-
-                    </div>
-                </div>
+                <input type="range" class="content_slider_scroll desktop_block">
+                
             </section>
             <section class="third">
                 <h2>LOREM IPSUM DOLOR SIT AMET</h2>
                 <div class="third_comp">
-                    <img src="./assets/desktop/main/third/comp.png" alt="comp" id='comp'>
+                    <img src="./assets/desktop/main/third/comp.svg" alt="comp" id='comp'>
                     <div id="comp_circle"></div>
                 </div>
-                <img src="./assets/desktop/main/third/laptop.png" alt="laptop" id='laptop'>
-                <img src="./assets/desktop/main/third/mobile.png" alt="mobile" id='mobile'>
+                <img src="./assets/desktop/main/third/laptop.svg" alt="laptop" id='laptop'>
+                <img src="./assets/desktop/main/third/mobile.svg" alt="mobile" id='mobile'>
                 <div class='third_list'>
                     <ul>
                         <li>Sed ut perspiciatis unde omnis</li>
