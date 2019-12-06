@@ -1,0 +1,88 @@
+@import 'iframe'
+
+.portfolio
+  margin: auto !important
+
+  .header
+    background-color: #A767D5
+    border-radius: 5px 5px 0 0
+
+  .Education
+    background-color: #A767D5
+    border-top: 1ch solid
+    border-bottom: 0.8ch solid
+    border-color: #42036F
+
+  .slide
+    display: none
+    background-color: #A767D5
+
+  .show               
+    display: inline
+
+  #prev
+    border-radius: 0 0 0 5px
+
+  #next
+    border-radius: 0 0 5px 0
+
+  #droplist
+    border-top: 0.2em solid
+    border-color: #42036F
+    width: 100%
+    padding: 0
+    overflow: hidden
+    transition: height 1s linear
+    height: 0
+
+  .active
+    transition: height 1s linear
+    height: 350px !important
+
+  #prev, #next
+    text-align: center
+
+  #prev, #next
+    &:hover
+      color: #FFAD73
+
+  .slide__image
+    float: right
+
+  a
+    &:link, &:visited
+      color: #42036F
+
+    &:hover
+      color: #FFAD73
+      text-decoration: none
+
+  #drop
+    text-align: right
+    color: #42036F
+
+  .Projects
+    background-color: #42036F
+    border-radius: 0 0 5px 5px
+
+  #description
+    display: none
+    background-color: #A767D5
+    height: 50px
+    text-align: center
+
+  @media (max-width: 500px)
+    .links
+      text-align: center
+
+    .slide__text
+      display: none
+      position: absolute
+      margin-left: 15px
+      flex-direction: column
+      z-index: 1
+      color: wheat
+      background: rgba(0, 0, 0, 0.5)
+
+    #description
+      display: flex
