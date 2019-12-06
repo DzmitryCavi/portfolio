@@ -58,12 +58,7 @@ const slider = ()=>{
 
   next.addEventListener('click', nextSlide);
   prev.addEventListener('click', previousSlide);
-}
 
-
-
-/*swiper*/
-const swiper = ()=> {
   var startX;
   var startY;
   var endX;
@@ -123,8 +118,8 @@ const swiper = ()=> {
     
   })
   }
-
 }
+
 
 
 /*droplist*/
@@ -154,16 +149,16 @@ const description = () => {
   var state = 'show';
   buttonDesc.addEventListener('click',() => {
     if(state == 'show') {
-      let text = button.innerHTML;
-      button.innerHTML = text.replace('Show','Hide');
+      let text = buttonDesc.innerHTML;
+      buttonDesc.innerHTML = text.replace('Show','Hide');
       let elements = document.getElementsByClassName('slide__text');
       for(let i = 0; i < elements.length; i++){
         elements[i].style.display = "flex";
       } 
       state = 'hide';
     } else {
-      let text = button.innerHTML;
-      button.innerHTML = text.replace('Hide','Show');
+      let text = buttonDesc.innerHTML;
+      buttonDesc.innerHTML = text.replace('Hide','Show');
       let elements = document.getElementsByClassName('slide__text');
       for(let i = 0; i < elements.length; i++){
         elements[i].style.display = "none";
@@ -176,7 +171,6 @@ const description = () => {
 if(document.title == 'frame'){
   description();
   droplist();
-  swiper();
   slider();
 } else {
   resizeButtons();
