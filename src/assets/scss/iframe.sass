@@ -1,0 +1,36 @@
+
+body
+  height: 100%
+  display: flex
+  justify-items: center
+  margin: 0
+iframe
+  margin: 0 auto
+
+.buttons
+  width: fit-content
+  height: fit-content
+  border: 2px solid
+  border-radius: 20px
+  background-color: #A767D5
+  padding: 1%
+  position: absolute
+  right: 0
+  bottom: 0
+
+a
+  &:link
+    color: #42036F
+    text-decoration: none
+
+  &:hover
+    color: #FFAD73
+    text-decoration: none
+
+@media (max-width: 500px)
+  .buttons
+    display: none
+html
+  background-color: rgb(45, 45, 46)
+  height: 100%
+
